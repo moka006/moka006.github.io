@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>帮学-信息工程学院</title>
+
+		<link rel="stylesheet" type="text/css" href="css/初始化.css" />
+		<style type="text/css">
+			.shortcut {
+				height: 31px;
+				background-color: rgb(237, 240, 237);
+				line-height: 31px;
+			}
+			
+			.w {
+				width: 1200px;
+				margin: 0 auto;
+			}
+			
+			.fl {
+				float: left;
+			}
+			
+			.fr {
+				float: right;
+			}
+			
+			.shortcut ul li {
+				float: left;
+			}
+			
+			.red {
+				color: red;
+			}
+			
+			.shortcut .fr ul li:nth-child(even) {
+				width: 1px;
+				height: 12px;
+				background-color: #666666;
+				margin: 9px 15px 0;
+			}
+			
+			header {
+				position: relative;
+				height: 105px;
+				/*background-color: papayawhip;*/
+			}
+			
+			.search {
+				position: absolute;
+				left: 364px;
+				top: 25px;
+				width: 538px;
+				height: 36px;
+				border: 2px solid red;
+			}
+			
+			.search input {
+				width: 454px;
+				height: 36px;
+				float: left;
+			}
+			
+			.search button {
+				width: 84px;
+				height: 36px;
+				float: left;
+				background-color: red;
+				font-size: 16px;
+				color: white;
+			}
+			
+			.hotwords {
+				position: absolute;
+				top: 66px;
+				left: 358px;
+			}
+			
+			.hotwords a {
+				margin: 0 10px;
+			}
+			
+			.nav {
+				height: 47px;
+				border-bottom: 2px solid #B1191A;
+			}
+			
+			.kemu {
+				float: left;
+			}
+			
+			.kemu ul li {
+				float: left;
+			}
+			
+			.kemu ul li a {
+				display: block;
+				line-height: 47px;
+				padding: 0 30px;
+				font-size: 16px;
+				font-weight: 700;
+				color: black;
+			}
+			
+			.dibu {
+				height: 80px;
+				background-color: #f5f5f5;
+			}
+			
+			.dibuhezi {
+				text-align: center;
+			}
+			
+			.mingpian ul li {
+				overflow: hidden;
+				width: 290px;
+				height: 360px;
+				/*background-color: blanchedalmond;*/
+				float: left;
+				margin-right: 10px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				border: 1px solid transparent;
+			}
+			
+			.mingpian ul li:hover {
+				border: 1px solid red;
+			}
+			
+			.mingpian ul li:nth-child(4n) {
+				margin-right: 0;
+			}
+			
+			.mingpian ul li img {
+				width: 100%;
+				height: 246px;
+			}
+			
+			.mingpian ul li .name {
+				font-size: 20px;
+				color: #FFD700;
+				font-weight: 400;
+			}
+			
+			.mingpian ul li .jieshao {
+				font-size: 16px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="shortcut">
+			<div class="w">
+				<div class="fl">
+					<ul>
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+
+					</ul>
+				</div>
+				<div class="fr">
+					<ul>
+						<li>
+							<a href="">个人中心</a>
+						</li>
+						<li></li>
+						<li>选择学院</li>
+						<li></li>
+						<li>
+							<a href="">联系客服</a>
+						</li>
+						<li></li>
+						<li>
+							<a href="">请登录</a>
+						</li>
+						<li></li>
+						<li>
+							<a href="">免费注册</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<header class="header w">
+			<div class="search"><input type="search" name="" id="" placeholder="web" />
+				<button>搜索</button>
+			</div>
+			<div class="hotwords">
+				<a href="">高等数学</a>
+				<a href="">数据结构</a>
+				<a href="">离散数学</a>
+				<a href="">大学物理</a>
+				<a href="">线性代数</a>
+				<a href="">无机化学</a>
+				<a href="">操作系统</a>
+			</div>
+
+		</header>
+		<div class="nav">
+			<div class="w">
+				<div class="kemu">
+					<ul>
+						<li>
+							<a href="">Web工程</a>
+						</li>
+						<li>
+							<a href="">操作系统</a>
+						</li>
+						<li>
+							<a href="">数据结构</a>
+						</li>
+						<li>
+							<a href="">数据库</a>
+						</li>
+						<li>
+							<a href="">计算机网络原理</a>
+						</li>
+						<li>
+							<a href="">算法设计与分析</a>
+						</li>
+						<li>
+							<a href="">TCP/IP编程</a>
+						</li>
+						<li>
+							<a href="">信息安全</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="w">
+					<div class="renwu">
+
+						<div class="mingpian">
+							<ul class="clearfix">
+								<li><img src="img/3.jpg" alt="" />
+									<div class="name">张三· 信工院· 网络工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/14.jpg" alt="" />
+									<div class="name">李四· 信工院· 软件工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/12.jpg" alt="" />
+									<div class="name">王五· 信工院· 计算机技术与科学</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/13.jpg" alt="" />
+									<div class="name">赵六· 信工院· 软件工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/11.jpg" alt="" />
+									<div class="name">孙七· 信工院· 网络工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/15.jpg" alt="" />
+									<div class="name">周八· 信工院· 计算机技术与科学</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/17.jpg" alt="" />
+									<div class="name">吴九· 信工院· 软件工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/16.jpg" alt="" />
+									<div class="name">郑十· 信工院· 软件工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/18.jpg" alt="" />
+									<div class="name">匿名· 信工院· 网络工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/18.jpg" alt="" />
+									<div class="name">匿名· 信工院· 网络工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/18.jpg" alt="" />
+									<div class="name">匿名· 信工院· 网络工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+								<li><img src="img/18.jpg" alt="" />
+									<div class="name">匿名· 信工院· 网络工程</div>
+									<div class="jieshao">2019年XXX杯金牌得主，熟练掌握xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="dibu">
+					<div class="dibuhezi">
+						<div class="links">关于我们 | 联系我们 | 联系客服 | 建议与反馈 | 用户协议 | 隐私政策 </div>
+						<div class="banquan">版权所有 © 湘潭大学帮学工作室</div>
+					</div>
+				</div>
+	</body>
+
+</html>

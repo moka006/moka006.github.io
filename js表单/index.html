@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var num = 4;
+			function add() {
+				x = document.createElement("tr");
+				a = document.createElement("th");
+				b = document.createElement("th");
+				c = document.createElement("th");
+				d = document.createElement("th");
+				all = document.getElementById("Table");
+				all.lastChild.appendChild(x)
+				x.appendChild(a);
+				x.appendChild(b);
+				x.appendChild(c);
+				a.innerHTML = document.form.xingming.value;
+				b.innerHTML = document.form.xuehao.value;
+				c.innerHTML = "<a href='javascript:void(0);' onclick='delone(this)'>删除</a>";
+			}
+
+			function delone(lw) {
+				var tr = lw.parentNode.parentNode;
+				tr.parentNode.removeChild(tr);
+			}
+		</script>
+	</head>
+
+	<body>
+		<table width="600px" id="Table" border="3" cellspacing="0" id="Table" align="center">
+			<tr>
+				<td>
+					<form name="form">
+						<label>姓名</label>
+						<input name="xingming" type="text" />
+</td><td>
+						<label>学号</label>
+						<input name="xuehao" type="number" />
+					</form>
+				</td>
+				<td>
+					<button onclick="add()">点击添加</button>
+				</td>
+			</tr>
+
+			<tr >
+				<th>姓名</th>
+				<th>学号</th>
+				<th>操作</th>
+			</tr>
+			<tr>
+				<th>张三</th>
+				<th>201901</th>
+				<th>
+					<a href="javascript:void(0);" onclick="delone(this)">删除</a>
+				</th>
+			</tr>
+			<tr>
+				<th>李四</th>
+				<th>201902</th>
+				<th>
+					<a href="javascript:void(0);" onclick="delone(this)">删除</a>
+				</th>
+			</tr>
+			<tr>
+				<th>王五</th>
+				<th>201903</th>
+				<th>
+					<a href="javascript:void(0);" onclick="delone(this)">删除</a>
+				</th>
+			</tr>
+		</table>
+
+	</body>
+
+</html>

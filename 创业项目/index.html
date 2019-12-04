@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>帮学-首页</title>
+		<link rel="stylesheet" type="text/css" href="css/初始化.css" />
+		<style type="text/css">
+			.shortcut {
+				height: 31px;
+				background-color: rgb(237, 240, 237);
+				line-height: 31px;
+			}
+			
+			.w {
+				width: 1200px;
+				margin: 0 auto;
+			}
+			
+			.fl {
+				float: left;
+			}
+			
+			.fr {
+				float: right;
+			}
+			
+			.shortcut ul li {
+				float: left;
+			}
+			
+			.red {
+				color: red;
+			}
+			
+			.shortcut .fr ul li:nth-child(even) {
+				width: 1px;
+				height: 12px;
+				background-color: #666666;
+				margin: 9px 15px 0;
+			}
+			
+			header {
+				position: relative;
+				height: 105px;
+				/*background-color: papayawhip;*/
+			}
+			
+			.search {
+				position: absolute;
+				left: 364px;
+				top: 25px;
+				width: 538px;
+				height: 36px;
+				border: 2px solid red;
+			}
+			
+			.search input {
+				width: 454px;
+				height: 36px;
+				float: left;
+			}
+			
+			.search button {
+				width: 84px;
+				height: 36px;
+				float: left;
+				background-color: red;
+				font-size: 16px;
+				color: white;
+			}
+			
+			.hotwords {
+				position: absolute;
+				top: 66px;
+				left: 358px;
+			}
+			
+			.hotwords a {
+				margin: 0 10px;
+			}
+			
+			.nav {
+				height: 47px;
+				border-bottom: 2px solid #B1191A;
+			}
+			
+			.nav .zuo {
+				float: left;
+				width: 210px;
+				height: 47px;
+				background-color: #B1191A;
+			}
+			
+			.zuo .dt {
+				width: 100%;
+				height: 100%;
+				color: #FFFFFF;
+				text-align: center;
+				line-height: 45px;
+				font-size: 16px;
+			}
+			
+			.zuo .dd {
+				/*display: none;*/
+				width: 210px;
+				height: 465px;
+				background-color: #C81623;
+			}
+			
+			.zuo .dd ul li {
+				height: 31px;
+				line-height: 31px;
+			}
+			
+			.zuo .dd ul li a {
+				font-size: 14px;
+				color: #FFFFFF;
+			}
+			
+			.zuo .dd ul li:hover {
+				background-color: #FFFFFF;
+			}
+			
+			.zuo .dd ul li:hover a {
+				color: #C81623;
+			}
+			
+			.dibu {
+				height: 80px;
+				background-color: #f5f5f5;
+			}
+			
+			.dibuhezi {
+				text-align: center;
+			}
+			
+			.main {
+				width: 980px;
+				height: 453px;
+				background-color: pink;
+				margin-left: 210px;
+				margin-top: 10px;
+			}
+			
+			.tupian {
+				width: 721px;
+				height: 453px;
+				float: left;
+			}
+			
+			.news {
+				width: 250px;
+				height: 453px;
+				/*background-color: skyblue;*/
+				margin-left: 730px;
+			}
+			
+			.hd {
+				height: 33px;
+				border-bottom: 1px dotted #e4e4e4;
+				line-height: 33px;
+			}
+			
+			.new ul li {
+				height: 24px;
+				line-height: 24px;
+			}
+			
+			.mingpian ul li {
+				overflow: hidden;
+				width: 290px;
+				height: 460px;
+				/*background-color: blanchedalmond;*/
+				float: left;
+				margin-right: 10px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				border: 1px solid transparent;
+			}
+			
+			.mingpian ul li:hover {
+				border: 1px solid red;
+			}
+			
+			.mingpian ul li:nth-child(4n) {
+				margin-right: 0;
+			}
+			
+			.mingpian ul li img {
+				width: 100%;
+				height: 346px;
+			}
+			
+			.mingpian ul li .name {
+				font-size: 34px;
+				color: #FFD700;
+				font-weight: 400;
+			}
+			
+			mingpian ul li .jieshao {
+				font-size: 24px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="shortcut">
+			<div class="w">
+				<div class="fl">
+					<ul>
+						<li>帮学平台欢迎您!&nbsp;</li>
+
+					</ul>
+				</div>
+				<div class="fr">
+					<ul>
+						<li>
+							<a href="">个人中心</a>
+						</li>
+						<li></li>
+						<li>选择学院</li>
+						<li></li>
+						<li>
+							<a href="">联系客服</a>
+						</li>
+						<li></li>
+						<li>
+							<a href="">请登录</a>
+						</li>
+						<li></li>
+						<li>
+							<a href="注册.html">免费注册</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<header class="header w">
+			<div class="search"><input type="search" name="" id="" placeholder="web" />
+				<button>搜索</button>
+			</div>
+			<div class="hotwords">
+				<a href="">高等数学</a>
+				<a href="">数据结构</a>
+				<a href="">离散数学</a>
+				<a href="">大学物理</a>
+				<a href="">线性代数</a>
+				<a href="">无机化学</a>
+				<a href="">操作系统</a>
+			</div>
+
+		</header>
+		<div class="nav">
+			<div class="w">
+				<div class="zuo">
+					<div class="dt">学院选择</div>
+					<div class="dd">
+						<ul>
+							<li>
+								<a href="信息工程学院.html" target="_blank">信息工程学院</a>
+							</li>
+							<li>
+								<a href="">坏境与资源学院</a>
+							</li>
+							<li>
+								<a href="">机械工程学院</a>
+							</li>
+							<li>
+								<a href="">土木工程与力学学院</a>
+							</li>
+							<li>
+								<a href="">化学工程与工艺学院</a>
+							</li>
+							<li>
+								<a href="">材料科学与工程学院</a>
+							</li>
+							<li>
+								<a href="">物理与光电工程学院</a>
+							</li>
+							<li>
+								<a href="">信用风险管理学院 </a>
+							</li>
+							<li>
+								<a href="">公共管理学院</a>
+							</li>
+							<li>
+								<a href="">文学与新闻学院</a>
+							</li>
+							<li>
+								<a href="">法学院</a>
+							</li>
+							<li>
+								<a href="">国际交流学院</a>
+							</li>
+							<li>
+								<a href="">知识产权学院</a>
+							</li>
+							<li>
+								<a href="">化学学院</a>
+							</li>
+							<li>
+								<a href="">商学院</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="you"></div>
+			</div>
+		</div>
+		<div class="w">
+			<div class="main">
+				<div class="tupian"><img src="img/1.jpg" / style="width: 721px; height:453px"></div>
+				<div class="news">
+					<div class="hd">新闻公告</div>
+					<div class="new">
+						<ul>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+							<li>
+								<a href=""><strong>[重磅]</strong>帮学平台上线啦！！！！！</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w">
+			<div class="renwu">
+				<div class="xueba"><img src="img/2.png" style="width: 1200px;height: 100px;" /></div>
+				<div class="mingpian">
+					<ul class="clearfix">
+						<li><img src="img/3.jpg" alt="" />
+							<div class="name">张三</div>
+							<div class="jieshao">信工院· 网络工程</div>
+						</li>
+						<li><img src="img/4.jpg" alt="" />
+							<div class="name">李四</div>
+							<div class="jieshao">数学院· 大数据</div>
+						</li>
+						<li><img src="img/5.jpg" alt="" />
+							<div class="name">王五</div>
+							<div class="jieshao">法学院· 法学</div>
+						</li>
+						<li><img src="img/6.jpg" alt="" />
+							<div class="name">赵六</div>
+							<div class="jieshao">化学院· 应用化学</div>
+						</li>
+						<li><img src="img/7.jpg" alt="" />
+							<div class="name">孙七</div>
+							<div class="jieshao">商学院· 工商管理</div>
+						</li>
+						<li><img src="img/8.jpg" alt="" />
+							<div class="name">周八</div>
+							<div class="jieshao">物理院· 微电子</div>
+						</li>
+						<li><img src="img/9.jpg" alt="" />
+							<div class="name">吴九</div>
+							<div class="jieshao">土力院· 土木工程</div>
+						</li>
+						<li><img src="img/10.jpg" alt="" />
+							<div class="name">郑十</div>
+							<div class="jieshao">文新院· 新闻学</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="dibu">
+			<div class="dibuhezi">
+				<div class="links">关于我们 | 联系我们 | 联系客服 | 建议与反馈 | 用户协议 | 隐私政策 </div>
+				<div class="banquan">版权所有 © 湘潭大学帮学工作室</div>
+			</div>
+		</div>
+	</body>
+
+</html>
